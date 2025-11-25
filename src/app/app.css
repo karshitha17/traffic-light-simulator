@@ -1,0 +1,18 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  font-weight: bold;
+}
+.main-container .text-red {
+  color: red;
+}
+.main-container .text-green {
+  color: rgb(16, 182, 16);
+}
+.main-container .text-yellow {
+  color: rgb(249, 225, 7);
+}/*# sourceMappingURL=app.css.map */

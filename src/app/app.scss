@@ -1,0 +1,21 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  font-weight: bold;
+
+  .text-red {
+    color: red;
+  }
+
+  .text-green {
+    color: rgb(16, 182, 16);
+  }
+
+  .text-yellow {
+    color: rgb(249, 225, 7);
+  }
+}

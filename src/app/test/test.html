@@ -1,0 +1,24 @@
+<div class="container">
+  <h1>TRAFFIC LIGHT SIMULATOR</h1>
+
+  <div class="traffic-box">
+    <div class="light red"    [ngClass]="{active: index === 0}"></div>
+    <div class="light yellow" [ngClass]="{active: index === 1}"></div>
+    <div class="light green"  [ngClass]="{active: index === 2}"></div>
+    <div class="color" [ngClass]="{
+    'timer-red': index === 0,
+    'timer-yellow': index === 1,
+    'timer-green': index === 2
+}">{{timer}}</div>
+  </div>
+
+  <div class="buttons">
+    <button class="button" (click)="start()">Start</button>
+    <button class="button" (click)="stop()">Stop</button>
+    <button class="button" (click)="manualNext()">Next Signal</button>
+  </div>
+</div>
+
+
+
+
